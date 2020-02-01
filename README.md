@@ -1,3 +1,24 @@
+# Yahtzee
+
+### Game Rules
+
+ [http://www.yahtzee.org.uk/rules.html](http://www.yahtzee.org.uk/rules.html)
+
+ 
+
+### Requirements
+
+JDK 11
+
+
+
+### Server
+
+The server starts listening for clients over TCP when started.
+
+When all clients agree to play, the server starts the game.
+
+
 ### Communication
 The server and the clients send simple string messages to each other.
 There are 4 types of messages, 2 requests coming from the clients, a message used for informing the clients about the current points of the players, and a roll result message that the server sends to the player currently rolling the dice.
