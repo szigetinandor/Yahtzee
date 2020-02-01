@@ -35,7 +35,9 @@ public class Server {
         }
     }
 
-    public void sendM
+    public void sendMessageToClient(String message, ClientHandler client) {
+        client.sendMessage(message);
+    }
 
     public synchronized void sendPointsInformationToAllClients(PointsInformation pointsInformation) {
         handlers.forEach(x -> x.sendMessage(message));

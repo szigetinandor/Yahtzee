@@ -1,2 +1,11 @@
-public class RerollRequest {
+public class RerollRequest extends Request {
+
+    public RerollRequest(String message) {
+        this.message = message;
+    }
+
+    @Override
+    public void process() {
+
+    }
 }

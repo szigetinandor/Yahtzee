@@ -7,7 +7,7 @@ public class ClientHandler implements Runnable {
     private final Socket client;
     private final BufferedReader reader;
     private final PrintWriter writer;
-    private String name;
+
 
     public ClientHandler(Socket client, Server server) throws IOException {
         this.server = server;
