@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a9c903c-36b4-445d-bcb1-4a745332bae1" name="Default Changelist" comment="changes to abstract class Request, created Sendable interface">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WrongRequestFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PointsInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PointsInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RerollRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RerollRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ScoreSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScoreSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Roll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sendable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sendable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WriteScoreRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WriteScoreRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +89,7 @@
       <workItem from="1580497713261" duration="9399000" />
       <workItem from="1580564853074" duration="6332000" />
       <workItem from="1580739996127" duration="9268000" />
+      <workItem from="1581250486246" duration="3661000" />
     </task>
     <task id="LOCAL-00001" summary="changes to abstract class Request, created Sendable interface">
       <created>1580568593170</created>
@@ -131,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="560" y="179" key="#Project_Structure/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580500917199" />
-    <state x="773" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1580568366951">
+    <state x="773" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581252471037">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="773" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580568366951" />
+    <state x="773" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1581252471037" />
     <state x="617" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580741353131">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>

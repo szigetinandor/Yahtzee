@@ -34,6 +34,15 @@ public class Server {
         }
     }
 
+    public void startGame() {
+        Game game = new Game(this);
+        for(ClientHandler client : clients) {
+            client.getPlayer().setGame(game);
+            game.assignPlayer(client.getPlayer());
+        }
+        game.play();
+    }
+
     public void sendMessageToClient(String message, ClientHandler client) {
         client.sendMessage(message);
     }

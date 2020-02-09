@@ -36,7 +36,7 @@ public class ClientHandler implements Runnable {
 
 	private void processRequest(String message) throws WrongRequestFormatException {
 		Request request = Request.make(message);
-		request.process(this.);
+		request.process(this.player);
 	}
 
 	public void sendMessage(String message) {
@@ -45,15 +45,16 @@ public class ClientHandler implements Runnable {
 
 	private void setName() {
 		try {
-			this.name = reader.readLine();
+			String name = reader.readLine();
+			this.player = new Player(name);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		server.logger.info(this.name + " connected.");
+		server.logger.info(this.player.getName() + " connected.");
 	}
 
-	public String getName() {
-		return this.name;
+	public Player getPlayer() {
+		return this.player;
 	}
 
 }

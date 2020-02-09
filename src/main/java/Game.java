@@ -8,13 +8,17 @@ public class Game {
     private List<Round> rounds;
     private final int roundsCount = 13;
 
-    public Game(Server server, List<Player> players) {
+    public Game(Server server) {
         this.server = server;
-        this.players = players;
+        this.players = new ArrayList<>();
         this.rounds = new ArrayList<>();
         for(int i = 0; i < roundsCount; i++) {
-            rounds.add(new Round(players));
+            rounds.add(new Round(this, players));
         }
+    }
+
+    public void assignPlayer(Player player) {
+        this.players.add(player);
     }
 
     public void play() {
@@ -25,6 +29,10 @@ public class Game {
 
     private void sendPointsInformation() {
         PointsInformation points = new PointsInformation(players);
-        server.sendPointsInformationToAllClients(points);
+        points.send();
+    }
+
+    public void requestReroll(Player player) {
+
     }
 }

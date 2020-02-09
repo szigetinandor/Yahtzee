@@ -6,6 +6,6 @@ public class RerollRequest extends Request {
 
     @Override
     public void process(Player player) {
-        player
+        player.requestReroll();
     }
 }
