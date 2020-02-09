@@ -1,4 +1,4 @@
 public interface Sendable {
 
-    void send(Player player);
+    void send(Player player, Game game);
 }

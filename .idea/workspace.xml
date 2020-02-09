@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a9c903c-36b4-445d-bcb1-4a745332bae1" name="Default Changelist" comment="changes to abstract class Request, created Sendable interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PointsInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PointsInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RerollRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RerollRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Roll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Round.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sendable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sendable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +82,7 @@
       <workItem from="1580497713261" duration="9399000" />
       <workItem from="1580564853074" duration="6332000" />
       <workItem from="1580739996127" duration="9268000" />
-      <workItem from="1581250486246" duration="3661000" />
+      <workItem from="1581250486246" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary="changes to abstract class Request, created Sendable interface">
       <created>1580568593170</created>

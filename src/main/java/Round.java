@@ -12,10 +12,12 @@ public class Round {
 
     public void play() {
         for(Player player : players) {
-            Roll roll = new Roll();
-            roll.perform();
-            roll.send(player);
-            player.wait();
+            int rolls = 0;
+            while(rolls < 3) {
+                Roll roll = new Roll();
+                roll.perform();
+                roll.send(player, game);
+            }
         }
     }
 }
