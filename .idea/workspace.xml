@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a9c903c-36b4-445d-bcb1-4a745332bae1" name="Default Changelist" comment="changes to abstract class Request, created Sendable interface">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WrongRequestFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RerollRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RerollRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScoreSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScoreSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WriteScoreRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WriteScoreRequest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XAnLMf9h6cSsw6DkjEWJ0CLFam" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a9c903c-36b4-445d-bcb1-4a745332bae1" name="Default Changelist" comment="" />
+      <created>1580497709945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580497709945</updated>
+      <workItem from="1580497713261" duration="9399000" />
+      <workItem from="1580564853074" duration="6332000" />
+      <workItem from="1580739996127" duration="9268000" />
+    </task>
+    <task id="LOCAL-00001" summary="changes to abstract class Request, created Sendable interface">
+      <created>1580568593170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580568593171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes to abstract class Request, created Sendable interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to abstract class Request, created Sendable interface" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="179" key="#Java" timestamp="1580745833562">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="560" y="179" key="#Java/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580745833562" />
+    <state x="560" y="179" key="#Project_Structure" timestamp="1580500917199">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="560" y="179" key="#Project_Structure/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580500917199" />
+    <state x="773" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1580568366951">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="773" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580568366951" />
+    <state x="617" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580741353131">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="617" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580741353131" />
+    <state x="562" y="116" key="CommitChangelistDialog2" timestamp="1580741001892">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="562" y="116" key="CommitChangelistDialog2/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580741001892" />
+    <state x="748" y="276" key="FileChooserDialogImpl" timestamp="1580505308805">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="748" y="276" key="FileChooserDialogImpl/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580505308805" />
+    <state x="828" y="414" key="Github.ShareDialog" timestamp="1580505335191">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="828" y="414" key="Github.ShareDialog/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580505335191" />
+    <state x="799" y="226" key="Github.UntrackedFilesDialog" timestamp="1580505413694">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="799" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580505413694" />
+    <state x="100" y="100" width="1720" height="835" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580505026843">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="100" y="100" width="1720" height="835" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580505026843" />
+    <state x="713" y="200" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580500295523">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="713" y="200" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1035/1920.0.1920.1080@0.0.1920.1035" timestamp="1580500295523" />
+  </component>
+</project>

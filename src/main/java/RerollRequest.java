@@ -5,7 +5,7 @@ public class RerollRequest extends Request {
     }
 
     @Override
-    public void process() {
-
+    public void process(Player player) {
+        player
     }
 }

@@ -6,7 +6,8 @@ public class WriteScoreRequest extends Request {
     }
 
     @Override
-    public void process() {
+    public void process(Player player) {
 
+        player.requestWriteScore(Roll roll);
     }
 }
